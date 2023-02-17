@@ -1,0 +1,275 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+/*INFORMATION*/
+.ten {
+  color: #0e2452;
+}
+.fk,
+.fk1 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  display: block;
+}
+.fk2 {
+  display: inline-block;
+  margin: 0;
+}
+.fk {
+  font-weight: bold;
+}
+
+.info2 {
+  float: right;
+  margin-top: -204px;
+  margin-right: 550px;
+}
+
+.photo {
+  height: 150px;
+  width: 113px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#info {
+  margin: 40px;
+  position: relative;
+}
+.section {
+  margin: 40px;
+}
+.section-title {
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.section-content {
+  font-size: 15px;
+  text-align: justify;
+}
+/*HOC VAN*/
+.edu-time1,
+.edu-time2,
+.ex-time1,
+.ex-time2,
+.ac-time1,
+.ac-time2 {
+  border-bottom: 1px solid rgb(205, 202, 202);
+}
+.edu-content1 {
+  margin-left: 320px;
+  margin-top: -140px;
+  margin-right: 140px;
+}
+.edu-content2 {
+  margin-left: 320px;
+  margin-top: 15px;
+  margin-right: 240px;
+}
+.edu-time1 {
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin-left: -30px;
+}
+.edu-time2 {
+  padding-bottom: 40px;
+  margin-left: -30px;
+
+  padding-top: 11px;
+}
+
+.edutime ul {
+  list-style-type: none;
+}
+
+.edutime li {
+  position: relative;
+  margin: 0;
+}
+
+.edutime li:before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  top: 0;
+  left: -30px;
+  width: 3px;
+}
+.edutime li:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  left: -34px;
+  background-color: black;
+  border: 4px solid black;
+  top: 10px;
+  border-radius: 50%;
+}
+/*KINH NGHIEM LA VIEC*/
+#content {
+  font-weight: bold;
+}
+.extime li {
+  position: relative;
+  margin: 0;
+}
+.extime li:before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  top: 0;
+  left: -30px;
+  width: 3px;
+}
+.extime li:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  left: -34px;
+  background-color: black;
+  border: 4px solid black;
+  top: 10px;
+  border-radius: 50%;
+}
+.ex-content1 {
+  margin-left: 320px;
+  margin-top: -230px;
+}
+
+.ex-content2 {
+  margin-left: 320px;
+  margin-top: 18px;
+  margin-right: 175px;
+}
+.ex-time1 {
+  padding-bottom: 100px;
+  padding-top: 10px;
+}
+.ex-time2 {
+  padding-bottom: 40px;
+  padding-top: 11px;
+}
+.extime ul {
+  list-style-type: none;
+}
+/*HOAT DONG*/
+.actime li {
+  position: relative;
+  margin: 0;
+}
+.actime li:before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  top: 0;
+  left: -30px;
+  width: 3px;
+}
+.actime li:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  left: -34px;
+  background-color: black;
+  border: 4px solid black;
+  top: 10px;
+  border-radius: 50%;
+}
+.ac-time1 {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.ac-time2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.ac-content1 {
+  margin-left: 320px;
+  margin-top: -123px;
+}
+.ac-content2 {
+  margin-left: 320px;
+  margin-top: 15px;
+}
+.actime ul {
+  list-style-type: none;
+}
+/*KI NANG*/
+.ngonngu {
+  margin-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(205, 202, 202);
+}
+.level {
+  margin-left: 320px;
+  margin-top: -25px;
+}
+
+/*CHUNG CHI*/
+.certi {
+  margin-left: 320px;
+  margin-top: -25px;
+}
+.nam {
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(205, 202, 202);
+}
+
+/*SO THICH*/
+.hobbi {
+  margin-left: -20px;
+}
+/*DU AN*/
+.proj-content {
+  margin-left: -20px;
+}
+/*LIEN HE*/
+.lienhe {
+  margin-left: -20px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
